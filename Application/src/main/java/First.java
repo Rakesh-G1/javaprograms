@@ -16,7 +16,7 @@ public class First implements Servlet
 		String first=request.getParameter("fname");
 		String last=request.getParameter("lname");
 		PrintWriter out=response.getWriter();
-		out.println(first+last);
+		out.println(first+last);//;
 	}
 	public void destroy() {
 		

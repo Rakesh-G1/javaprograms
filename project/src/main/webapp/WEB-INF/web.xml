@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+	<servlet-name>cla1</servlet-name>
+	<servlet-class>cla1</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>cla1</servlet-name>
+	<servlet-class>/reg</servlet-class>
+</servlet-mapping>
+</web-app>

@@ -15,7 +15,7 @@ public class First implements Servlet
 	public void service(ServletRequest request, ServletResponse response) throws ServletException, IOException {
 		String first=request.getParameter("fname");
 		String last=request.getParameter("lname");
-		PrintWriter out=response.getWriter();
+		PrintWriter out=response.getWriter();//response
 		out.println(first+last);//;
 	}
 	public void destroy() {
